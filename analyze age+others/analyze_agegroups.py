@@ -39,9 +39,5 @@ df["Age_Group"].value_counts().plot(kind="bar", color="skyblue")
 plt.title("Patient Count by Age Group")
 plt.xlabel("Age Group")
 plt.ylabel("Count")
-print(df.groupby("Age_Group").size())
-
-
-
 
 plt.show()
