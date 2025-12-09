@@ -6,7 +6,9 @@ This repo contains my personal Python scripts for:
 
 2)BMI Calculator (Male/Female Classification)
 
-3)Appointment Token Generator
+3)To analyze age groups 
+
+4)Appointment Token Generator
 
 2 and 3 use CSV files for reading/writing data.
 
@@ -42,7 +44,11 @@ Run:
 
 python bmi_calculator.py
 
-3. Appointment Token Generator (appointment_token_generator.py)
+3.To analyze age groups
+
+Analyzes hospital patient data by grouping ages, calculating averages for spending and visits, and showing insurance distribution. Also visualizes patient counts by age group with a simple bar chart.
+
+4. Appointment Token Generator (appointment_token_generator.py)
    
 Creates a unique token each time. Saves tokens to output/appointments.csv.
 
