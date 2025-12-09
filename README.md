@@ -23,6 +23,7 @@ appointment_token_generator.py
 data/
 
     symtoms_df.csv
+    Hospital_data_completed.csv
 
 output/
 
