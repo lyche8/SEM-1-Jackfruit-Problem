@@ -32,15 +32,15 @@ def save_appointment(name, doctor, date, time, filename = os.path.join(os.path.d
 # ------------------------------
 # Example usage
 # ------------------------------
-if __name__ == "__main__":
-    print("=== Healthcare Appointment Token Generator ===")
 
-    name = input("Enter patient name: ")
-    doctor = input("Enter doctor name: ")
-    date = input("Enter appointment date (YYYY-MM-DD): ")
-    time = input("Enter appointment time (HH:MM): ")
+print("=== Healthcare Appointment Token Generator ===")
 
-    token = save_appointment(name, doctor, date, time)
+name = input("Enter patient name: ")
+doctor = input("Enter doctor name: ")
+date = input("Enter appointment date (YYYY-MM-DD): ")
+time = input("Enter appointment time (HH:MM): ")
 
-    print(f"\nAppointment token generated: {token}")
-    print("Details saved to appointments.csv")
+token = save_appointment(name, doctor, date, time)
+
+print(f"\nAppointment token generated: {token}")
+print("Details saved to appointments.csv")
